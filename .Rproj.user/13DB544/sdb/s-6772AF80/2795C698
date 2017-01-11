@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "\n# Wij doen MEE\n# Dillen Bruil and Rik van Heumen\n# 11-1-2017\n\n######################################\n# Function to check whether a year\n# is a leap year or not, not including\n# constraints\n######################################\n\ncheckleap <- function(year){\n  # Function to check leap year or not\n  # year = the year you want to check (numeric)\n  if((year %% 4 != 0)){\n    FALSE\n  } else if((year %% 100 != 0)){\n    TRUE\n  } else if((year %% 400 != 0)){\n    FALSE\n  } else\n    TRUE\n}\n",
+    "created" : 1484142080964.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4181838833",
+    "id" : "2795C698",
+    "lastKnownWriteTime" : 1484142505,
+    "last_content_update" : 1484142505479,
+    "path" : "M:/MSc1/geo_scripting/WijDoenMEE_lesson3/R/checkleap.R",
+    "project_path" : "R/checkleap.R",
+    "properties" : {
+        "source_window_id" : "",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

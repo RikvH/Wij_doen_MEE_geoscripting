@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\n# Wij doen MEE\n# Dillen Bruil & Rik van Heumen\n# 11-1-2017\n\n#################################\n# Project to check whether a year\n# is a leap year or not, using \n# only the Gregorian calander\n#################################\n\n# Source functions\nsource('R/checkleap.R')\nsource('R/is.leap.R')\n\n# Use \"is.leap(year)\" to check whether it is a leap year\nis.leap(2000)\nis.leap(1581)\nis.leap(2002)\nis.leap('john')\n\n\n",
+    "created" : 1484141750683.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2140962166",
+    "id" : "216E7BD2",
+    "lastKnownWriteTime" : 1484142864,
+    "last_content_update" : 1484142864413,
+    "path" : "M:/MSc1/geo_scripting/WijDoenMEE_lesson3/main_.R",
+    "project_path" : "main_.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

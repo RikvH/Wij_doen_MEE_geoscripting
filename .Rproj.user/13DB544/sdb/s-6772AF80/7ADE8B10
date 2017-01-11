@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\n# Wij doen MEE\n# Dillen Bruil and Rik van Heumen\n# 11-1-2017\n\n######################################\n# Function to calculate whether a year\n# is a leap year or not, dealing with\n# constraints\n######################################\n\n\nis.leap <- function(year){\n  \n  # Function defining and handling constraints\n  if (is.numeric(year)){\n    # Checks whether input is numeric\n    if(year >= 1582){\n      # Check if the year falls within Gregorian calender  \n      checkleap(year)\n    } else\n      print(paste(year, \"is out of the valid range\"))\n  } else\n    # Throw a warning\n    warning(\"argument of class numeric is expected\")\n}\n\n\n",
+    "created" : 1484141938234.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3492949081",
+    "id" : "7ADE8B10",
+    "lastKnownWriteTime" : 1484142889,
+    "last_content_update" : 1484142889540,
+    "path" : "M:/MSc1/geo_scripting/WijDoenMEE_lesson3/R/is.leap.R",
+    "project_path" : "R/is.leap.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
