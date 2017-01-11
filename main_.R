@@ -6,7 +6,8 @@
 #################################
 # Project to check whether a year
 # is a leap year or not, using 
-# only the Gregorian calander
+# only the Gregorian calander and
+# whole years (no decimal years)
 #################################
 
 # Source functions
@@ -18,5 +19,6 @@ is.leap(2000)
 is.leap(1581)
 is.leap(2002)
 is.leap('john')
+is.leap(2000.5)
 
 
