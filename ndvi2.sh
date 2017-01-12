@@ -3,8 +3,6 @@ echo "Wij doen MEE"
 echo "12 January 2016"
 echo "Calculate LandSat NDVI"
 
-cd ../assignment4_WijDoenMEE
-
 #If there are old output files these have to be removed
 #otherwise the script wont run
 echo "remove old output files"
