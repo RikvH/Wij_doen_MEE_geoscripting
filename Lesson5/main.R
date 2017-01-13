@@ -15,11 +15,11 @@ library(raster)
 # Download and load datasets
 
 download.file(url = 'https://dl.dropboxusercontent.com/s/akb9oyye3ee92h3/LT51980241990098-SC20150107121947.tar.gz',
-              destfile = 'landsat5', method = 'auto')
+              destfile = 'data/landsat5', method = 'auto')
 download.file(url = 'https://dl.dropboxusercontent.com/s/i1ylsft80ox6a32/LC81970242014109-SC20141230042441.tar.gz',
-              destfile = 'landsat8', method = 'auto')
-untar('landsat5', exdir = 'data/')
-untar('landsat8', exdir = 'data/')
+              destfile = 'data/landsat8', method = 'auto')
+untar('data/landsat5', exdir = 'data/')
+untar('data/landsat8', exdir = 'data/')
 
 # Source functions
 
@@ -47,16 +47,16 @@ plot(ndvi_5_nc, main="NDVI 8 April 1990")
 plot(ndvi_8_nc, main="NDVI 18 April 2014")
 
 plot(dif_ndvi, main="Change in vegetation")
-legend("topleft", "negative: decrease in vegetation
-positive: increase in vegetation", cex=0.7, bty = "n")
+legend("topleft", "Negative: decrease in vegetation
+Positive: increase in vegetation", bty = "n")
 
 
 #write last plot to output file as a png
 png("output/difference_ndvi.png")
 plot(dif_ndvi, main="Change in vegetation")
-legend("topleft", "negative: decrease in vegetation
-positive: increase in vegetation
-       ", cex = 0.7, bty = "n")
+legend("topleft", "Negative: decrease in vegetation
+Positive: increase in vegetation
+       ", bty = "n")
 dev.off()
 
 
